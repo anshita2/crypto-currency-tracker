@@ -1,0 +1,14 @@
+.grid-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+}
+
+.List-flex {
+  width: 100%;
+}
