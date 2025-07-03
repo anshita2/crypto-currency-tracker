@@ -24,7 +24,6 @@ const MainComponent = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.25, duration: 0.75 }}>
             <Link to='/dashboard'><Button text="Dashboard"></Button></Link>
-            <Button text="Share" outlined={true}></Button>
           </motion.div>
         </div>
         <div className='phone-container'>
