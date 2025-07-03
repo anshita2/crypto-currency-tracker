@@ -3,7 +3,6 @@ import Coin from "./Pages/Coin";
 import Compare from "./Pages/Compare";
 import Dashboard from "./Pages/Dashboard";
 import Home from "./Pages/Home";
-import Watchlist from "./Pages/Watchlist";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/coin/:id" element={<Coin />} />
             <Route path="/compare" element={<Compare />} />
-            <Route path="/watchlist" element={<Watchlist />} />
           </Routes>
         </BrowserRouter>
     </div>
