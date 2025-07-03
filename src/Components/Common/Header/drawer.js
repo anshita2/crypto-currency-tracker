@@ -23,9 +23,6 @@ export default function AnchorTemporaryDrawer() {
                 <a href="/compare">
                     <p className="link">Compare</p>
                 </a>
-                <a href="/watchlist">
-                    <p className="link">Watchlist</p>
-                </a>
             </div>
           </Drawer>
     </div>
